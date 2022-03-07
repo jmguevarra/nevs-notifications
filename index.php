@@ -21,14 +21,13 @@ if(  !defined('WPINC') ){
 }
 
 //define variables
-define('PLUGIN_DIR', dirname(__FILE__));
-define('PLUGIN_VERSION', '1.0.0');
-define('TEXT_DOMAIN', 'nevs-notifications');
+define('NEVSNOTIF_PLUGIN_DIR', dirname(__FILE__));
+define('NEVSNOTIF_VERSION', '1.0.0');
+define('NEVSNOTIF_TDOMAIN', 'nevs-notifications');
 
+require_once 'includes/tools-manager.php';
+require_once 'includes/fields-settings.php';
 
-//require files to load
-//require_once 'includes/metabox.php';
-//require_once 'includes/enqueue-scripts.php';
 
 
  
